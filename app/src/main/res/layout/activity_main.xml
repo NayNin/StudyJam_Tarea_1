@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.nayra.tarea1.MainActivity"
+    android:baselineAligned="false">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:text="LLAMADAS"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_weight="0.28"
+                android:textColor="@color/colorplomo"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:text="CHATS"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textColor="@color/colorplomo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_weight="0.40"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:text="CONTACTOS"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textColor="@color/colorblanco"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_weight="0.36" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/luis"
+
+                android:id="@+id/imageView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:weightSum="1">
+            <TextView
+            android:text="Luis Fonsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+                android:textStyle="normal"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_weight="0.2" />
+            <TextView
+                android:text="Hey there! I am using WhatsApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorplo"
+                android:gravity="center"
+
+                android:padding="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_weight="0.2" />
+        </LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/MAE"
+
+                android:id="@+id/imageView2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:weightSum="1">
+                <TextView
+                    android:text="Marc Anthony"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="normal"
+                    android:padding="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_weight="0.2" />
+                <TextView
+                    android:text="Hey there! I am using WhatsApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorplo"
+                    android:gravity="center"
+
+                    android:padding="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_weight="0.2" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/ADELE"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:weightSum="1">
+                <TextView
+                    android:text="Adele"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="normal"
+                    android:padding="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_weight="0.2" />
+                <TextView
+                    android:text="Hey there! I am using WhatsApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorplo"
+                    android:gravity="center"
+
+                    android:padding="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_weight="0.2" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/cha"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:weightSum="1">
+                <TextView
+                    android:text="CHARLIE CHAPLIN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="normal"
+                    android:padding="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_weight="0.2" />
+                <TextView
+                    android:text="Hey there! I am using WhatsApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorplo"
+                    android:gravity="center"
+
+                    android:padding="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_weight="0.2" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/luis"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:weightSum="1">
+                <TextView
+                    android:text="Luis Fonsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="normal"
+                    android:padding="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_weight="0.2" />
+                <TextView
+                    android:text="Hey there! I am using WhatsApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorplo"
+                    android:gravity="center"
+
+                    android:padding="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_weight="0.2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    </LinearLayout>
